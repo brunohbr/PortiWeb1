@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: linear-gradient(90deg, rgb(15, 5, 99),rgb(38, 11, 192));
+    border-bottom: lightgrey 2px solid;
+}
+.logo a{
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+.logo a:hover{
+    color:lightblue;
+     
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+    
+}
+
+ul{
+    display: flex;
+    
+   
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+    transition: 0.5s ease;
+}
+
+li:hover{
+    transform: scale(1.15);
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+li a:hover{
+    color:lightblue;
+    
+
+     
+
+}
+
+.banner img{
+    width: 100%;
+}
+.divisao{
+    min-height: 300px;
+}
+.divisao2{
+    min-height: 300px;
+    background-color: lightgrey;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 50px;
+    background: linear-gradient(90deg, rgb(15, 5, 99),rgb(38, 11, 192));
+    
+}
+.copy{
+    color: lightgrey;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+.imagem{
+    margin-top: 20px;
+    max-width: 250px;
+    
+    
+}
+
+.imagem img{
+    width: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+    
+}
+.imagem img:hover{
+    transform: scale(1.1);
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+}
+
+.btn{
+    margin: 10px auto;
+    background: linear-gradient(120deg, rgb(15, 5, 99),rgb(54, 22, 231));
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    box-shadow: 0 0 0.5rem black;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    
+    
+    background: linear-gradient(90deg, rgb(158, 149, 240),rgb(82, 177, 255));
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 220px;
+    height: 280px;
+    margin: 7px 7px;
+    
+    
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.card img{
+    margin:  5px auto;
+    border-radius: 10px;
+   width: 210px;
+}
+.card p {
+    padding-top: 5px;
+    color: rgb(31, 32, 32);
+}
